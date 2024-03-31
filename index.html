@@ -1,0 +1,461 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIPIRFLIX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--! navbar start-->
+    <div class="navbar">
+        <div class="navbar-wrapper">
+            <div class="logo-wrapper">
+                <div class="logo-container">
+                    <h1 class="logo">ZIPIRFLIX</h1>
+                </div>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Anasayfa</li>
+                    <li class="menu-list-item">Filmler</li>
+                    <li class="menu-list-item">Diziler</li>
+                    <li class="menu-list-item">Popüler</li>
+                    <li class="menu-list-item">Listem</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture"
+                    src="https://images.unsplash.com/photo-1557862921-37829c790f19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFufGVufDB8fDB8fHww"
+                    alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Hesabım</span>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="bi bi-moon-fill toggle-icon"></i>
+                    <i class="bi bi-brightness-high-fill toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--! navbar end-->
+
+    <!--! sidebar start-->
+    <div class="sidebar">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-house-door-fill"></i>
+        <i class="bi bi-people-fill"></i>
+        <i class="bi bi-bookmarks-fill"></i>
+        <i class="bi bi-hourglass-top"></i>
+        <i class="bi bi-cart-fill"></i>
+        <i class="bi bi-gear-fill"></i>
+    </div>
+    <!--! sidebar end-->
+
+    <!--! content start-->
+    <div class="container">
+        <!-- featured content start-->
+        <div class="content-wrapper">
+            <div class="featured-content">
+                <img class="featured-title" src="film-görselleri/film-foto/ana3.jpg" alt="">
+                <p class="featured-desc">George R.R. Martin’in çok satan kitaplarından uyarlanan, David Benioff ve D.B.
+                    Weiss’in yaratıcısı olduğu HBO yapımı fenomen dizi; Westeros’un mistik toprakları ve Yedi Krallık’ın
+                    kontrolü için mücadeleye giren 9 soylu ailenin taht oyunları ve düşmanlıklarının anlatıldığı sonsuz
+                    bir
+                    macera. Tüm dünyada izlenme rekorları kıran, IMDB’de En Çok Oylanan Diziler Listesi’nde ilk sırada
+                    yer
+                    alan ve 2011 yılında ilk bölümünün yayınlanmasının ardından 8 sezondur her bölümü ayrı bir
+                    televizyon
+                    olayına dönüşen dizinin çekimleri Kuzey İrlanda, İzlanda, Fas gibi dünyanın çeşitli yerlerinde
+                    yapıldı.
+                    Kit Harington, Emilia Clarke, Peter Dinklage, Lena Headey, Maisie Williams, Sophie Turner, Aidan
+                    Gillen
+                    ve çok daha fazla başarılı oyuncuyu kadrosunda bulunduran Game Of Thrones, televizyon tarihinin en
+                    iyi
+                    yapımlarından biri. Dizi 2 yıl üst üste En İyi Dizi ve En İyi Senaryo dahil sayısız Primetime Emmy
+                    ödülünün de sahibi.</p>
+                <div class="featured-buttons">
+                    <button class="play-button">
+                        <i class="bi bi-play-circle"></i>Hemen İzle</button>
+                    <button class="teaser-button">
+                        <i class="bi bi-play-circle"></i>Fragmanı İzle</button>
+                    <button class="add-button"><i class="bi bi-plus-circle-fill"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- featured contend end-->
+
+        <!--filter start-->
+        <div class="movie-list-filter">
+            <select>
+                <option>Aksiyon</option>
+                <option>Dram</option>
+                <option>Korku/Gerilim</option>
+                <option>Macera</option>
+                <option>Bilim Kurgu</option>
+            </select>
+        </div>
+        <!--filter end-->
+
+        <!--movie list start-->
+
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Popüler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/got.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Game of Thrones</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/hod.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">House of Dragon</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/interstellar.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">İnterstellar</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/john.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">John Wick</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/succession.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Succession</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/i-drive.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Blade Runner 2049</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/dune2.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Dune Part 2</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/tlou.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">The Last pf Us</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/marslı.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Marslı</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Filmler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/interstellar.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">İnterstellar</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/dune1.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Dune Part 1</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/dune2.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">DunePart 2</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/i-drive.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Blade Runner 2049</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/john.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">John Wick 4</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/marslı.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Marslı</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/inception.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Inception</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/hunger-games.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">The Hungar Games</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/interstellar.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">İnterstellar</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Diziler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/got.jpg">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Game of Thrones</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/hod.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">House of Dragon</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/euphoria.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Euphoria</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/westworld.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Westworld</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/twd.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">The Ones Who Live</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/succession.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Succession</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/say-my-name.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Breaking Bad</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/tlou.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">The Last pf Us</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="film-görselleri/film-foto/got.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Game of Thrones</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <!--movie list end-->
+    </div>
+    <!--! content end-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
