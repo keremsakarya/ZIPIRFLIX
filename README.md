@@ -10,6 +10,4 @@ Html, css ve js kullanılarak oluşturulmuştur.
 
 ![](zipirflix.gif)
 
-
-# ZIPIRFLIX
 # ZIPIRFLIX
